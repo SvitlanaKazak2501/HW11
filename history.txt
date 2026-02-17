@@ -1,0 +1,281 @@
+    1  whoami
+    2  cd /
+    3  cd ~
+    4  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt C:\Users\ICH\ITCareerHub- учеба\Linux\19.01.26
+    5  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt "C:\Users\ICH\ITCareerHub- учеба\Linux\19.01.26\"
+    6  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt /C/Users/ICH/ITCareerHub- учеба/Linux/19.01.26/
+    7  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt /c/Users/ICH/ITCareerHub- учеба/Linux/19.01.26/
+    8  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt '/c/Users/ICH/ITCareerHub- учеба/Linux/19.01.26/'
+    9  scp '/c/Users/ICH/ITCareerHub- учеба/Linux/19.01.26/' ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/1.txt
+   10  scp '/c/Users/ICH/ITCareerHub- учеба/Linux/19.01.26/1.txt' ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana_Kazak/2.txt
+   11  ssh-keygen
+   12  cat .ssh/id_rsa.pub
+   13  cat .ssh/id_rsa
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  htop
+   17  tree
+   18  cd ../
+   19  touch file.txt
+   20  echo 'Hallo' > file.txt
+   21  sudo touch file.txt
+   22  [200~ssh ec2-user@linux.itcareerhub.de~
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  ssh ec2-user@linux.itcareerhub.de~
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  ssh ec2-user@linux.itcareerhub.de
+   27  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/Svitlana/.process_management .
+   28  ssh ec2-user@linux.itcareerhub.de
+   29  ssh ec2-user@linux.itcareerhub.de
+   30  mkdir git_info
+   31  cp /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/foto/Image.png /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/git_info
+   32  cp --help
+   33  cp "/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/foto/Image.png" \ "/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/git_info"
+   34  cp "/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/foto/Image.png" \"/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/git_info"
+   35  cp "/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/foto/Image.png"\"/ITCareerHub- учеба/ДЗ/Linux/ДЗ_8 -03.02.26/git_info"
+   36  cp /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8-03.02.26/foto/Image.png /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8-03.02.26/git_info
+   37  git init
+   38  ls -la
+   39  echo "#Linux" >> README.md
+   40  ls -la
+   41  git status
+   42  git add README.md
+   43  git status
+   44  git commit -m "added file README.md"
+   45   git config --global user.email svitlanakazak2501@gmail.com
+   46   git config --global user.name "Svitlana
+   47   git config --global user.name "Svitlana"
+   48  git commit -m "added file README.md"
+   49  git branch
+   50  git branch -M main
+   51  git push -u origin mail
+   52  git push -u origin main
+   53  history
+   54  git remove add origin git@github.com:SvitlanaKazak2501/Linux.git
+   55  git remote add origin git@github.com:SvitlanaKazak2501/Linux.git
+   56  git remote -v
+   57  git push -u origin main
+   58  history
+   59  ls -la
+   60  git add Project/
+   61  git add .
+   62  git status
+   63  git commit -m "added file project"
+   64  git push
+   65  git log
+   66  git log --oneline
+   67  git log --graph
+   68  cd Project/
+   69  cd ..
+   70  ls -la
+   71  history
+   72  $ cp /ITCareerHub/ДЗ/Linux/ДЗ_8-03.02.26/foto/Image.png /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8-03.02.26/git_info
+   73  cp /ITCareerHub/ДЗ/Linux/ДЗ_8-03.02.26/foto/Image.png /ITCareerHub- учеба/ДЗ/Linux/ДЗ_8-03.02.26/git_info
+   74  cp /ITCareerHub/ДЗ/Linux/ДЗ_8-03.02.26/foto/Image.png /ITCareerHub/ДЗ/Linux/ДЗ_8-03.02.26/git_info
+   75  pwd
+   76  cp foto/Image.png git_info/
+   77  git init
+   78  git add git_info
+   79  git commit -m "Added photo"
+   80  git branch -M main
+   81   git remote add origin git@github.com:SvitlanaKazak2501/git_intro.git
+   82  git push -u origin main
+   83  history
+   84  pwd
+   85  cd "C:\Users\ICH\ITCareerHub\Linux"
+   86  touch YA_SMOG.log
+   87  git status
+   88  git init
+   89  git branch -M main
+   90  git status
+   91  touch YA_SMOG.log
+   92  ls -l
+   93  git add YA_SMOG.log
+   94  git status
+   95  git commit -m "added Ya_SMOG.LOG"
+   96  git push
+   97  git remote -v
+   98  git remote add origin git@github.com:SvitlanaKazak2501/Linux.git
+   99  git remote -v
+  100  git push -u origin main
+  101  git push --force
+  102  git push -f
+  103  git push --set-upstream origin main
+  104  git push --force origin main
+  105  mrdir -p test
+  106  mkdir -p test
+  107  cd test/
+  108  echo "# Test" >> README.md
+  109  ls
+  110  cat README.md
+  111  git init
+  112  ls -ls
+  113  git branch
+  114  git status
+  115  git add README.md
+  116  git status
+  117  gitcommit -m "added readme"
+  118  git commit -m "added readme"
+  119  git log
+  120  git branch -m main
+  121  git branch
+  122  git remove -v
+  123  git remote -v
+  124  git remote add original git@github.com:SvitlanaKazak2501/test.git
+  125  git remote -v
+  126  git push -u origin main
+  127  cat ~/.ssh/id_rsa.pub
+  128  git status
+  129  git log
+  130  git push -u origin main
+  131  git remote remove origin
+  132  git remote -v
+  133  git remote remove original
+  134  git remote -v
+  135  git remote add origin git@github.com:SvitlanaKazak2501/test.git
+  136  git push -u origin main
+  137  git checkout -b gitignore
+  138  git branch
+  139  git log
+  140  nano gitignore
+  141  git statu
+  142  nano .gitignore
+  143  git add .gitignore
+  144  git status
+  145  git commit -m "added .gitignore"
+  146  git push
+  147  git push -u origin gitignore
+  148  clear
+  149  git branch
+  150  git switch main
+  151  git log
+  152  git merge gitignore
+  153  git log
+  154  git branch
+  155  git branch -d gitignore
+  156  git branch
+  157  history
+  158  cat .gitignore
+  159  touch 1.bmp 2.text test.log test2.log
+  160  ls -la
+  161  git status
+  162  git add 2.txt
+  163  git status
+  164  git add 2.text
+  165  git status
+  166  git commit -m "added"
+  167  git push 
+  168  git push 2.text
+  169  git log
+  170  git log --oneline
+  171  git log --oneline --graph
+  172  git checkout dc5e774
+  173  git chekout -b bugfix
+  174  git checkout -b bugfix
+  175  git lg
+  176  git log
+  177  cd 
+  178  cd /IHC/ITCareerHun/Linux/26.02.10
+  179  cd ./IHC/ITCareerHun/Linux/26.02.10
+  180  cd /ICH/ITCareerHun/Linux/26.02.10
+  181  cd ./ICH/ITCareerHun/Linux/26.02.10
+  182  cd ICH/ITCareerHun/Linux/26.02.10
+  183  cd ITCareerHun/Linux/26.02.10
+  184  cd /ITCareerHun/Linux/26.02.10
+  185  pwd
+  186  cd /c/Users/ICH/ITCareerHun/Linux/26.02.10
+  187  cd c/Users/ICH/ITCareerHun/Linux/26.02.10
+  188  ls
+  189  git clone git@github.com:SvitlanaKazak2501/git-branch.git
+  190  ls
+  191  cd git-branch/
+  192  ls
+  193  clear
+  194  git log
+  195  ls -la
+  196  git checkout -b gitignore
+  197  git branch
+  198  nano .gitignore
+  199  git status
+  200  git add .gitignore
+  201  git status
+  202  git cached rm .gitignore
+  203  git rm cached .gitignore
+  204  git rm --cached .gitignore
+  205  git status
+  206  git add .gitignore
+  207  git commit -m "add gitignore"
+  208  git remote -v
+  209  git push
+  210  git push -u origin gitignore
+  211  clear
+  212  git branch
+  213  git log
+  214  git switch main
+  215  git branch
+  216  git log
+  217  git merge origin gitignore
+  218  git log
+  219  clear
+  220  git branch
+  221  git branch -d gitignore 
+  222  git branch
+  223  git log --oneline
+  224  git log --oneline --graph
+  225  history
+  226  git checkout -b test
+  227  git branch
+  228  touch test.txt
+  229  echo "test test" >> test.txt
+  230  git add text.txt
+  231  git add test.txt
+  232  git status
+  233  git commit -m "added test.txt"
+  234  git push -u origin test.txt
+  235  touch test1.txt
+  236  git add test1.txt
+  237  git commit -m "added test1.txt"
+  238  git push -u origin test
+  239  git fetch origin
+  240  git rebase origin/main
+  241  git switch main
+  242  git log
+  243  git pull
+  244  git log
+  245  git switch test
+  246  git rebase
+  247  git fetch
+  248  git fetch origin
+  249  git rebase origin test
+  250  git rebase origin/main
+  251  git pull
+  252  git switch main
+  253  git log
+  254  git fetch --all
+  255  git switch test
+  256  git log
+  257  clear
+  258  git log --oneline --graph
+  259  git merge-base test origin/main
+  260  git checkout -b test2
+  261  touch test2test.txt
+  262  git add .
+  263  git commit -m "doit
+  264  git commit -m "doit"
+  265  git clone git@github.com:SvitlanaKazak2501/HW11.git
+  266  cd HW11/
+  267  git checkout -b feature
+  268  touch README.md
+  269  nano .gitignore
+  270  git status
+  271  git add .
+  272  git status
+  273  git rm --cached README.md
+  274  git status
+  275  git add .
+  276  git commit -m "added README.md"
+  277  git commit --amend
+  278  git log
+  279  git switch main
+  280  git merge feature
+  281  history >> history.txt
